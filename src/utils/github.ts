@@ -6,8 +6,8 @@ const octokit = new Octokit({
   auth: import.meta.env.VITE_GITHUB_TOKEN,
 });
 
-const owner = 'NamaGithub';
-const repo = 'NamaRepo';
+const owner = 'kenz-developer';
+const repo = 'Base-Web-SCode';
 
 export async function getUsers(): Promise<User[]> {
   try {
